@@ -1,0 +1,156 @@
+@font-face{
+    font-family: "ZabalDEMO-light";
+    src: url(zabal/ZabalDEMO-Light.otf)
+}
+
+@font-face{
+    font-family: "ZabalDEMO-medium";
+    src: url(zabal/ZabalDEMO-Medium.otf)
+}
+
+@font-face{
+    font-family: "ZabalDEMO-black";
+    src: url(zabal/ZabalDEMO-Black.otf)
+}
+
+body{
+    margin: 0;
+    width: 300px; 
+    margin: 0 ; 
+    box-sizing: border-box;
+    }
+
+#barraAzul{
+    background-color: #002653;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+}
+
+#barraLaranja{
+    background-color: #ff5c00;
+    position: fixed;
+    top: 160px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+}
+
+#homeBar{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    margin: 0;
+    top: 25px;
+    left: 0px;
+}
+
+
+#iconeBusca{
+    position: fixed;
+    top: 76px;
+    left: 94%;
+}
+
+#barraBusca{
+    position: fixed;
+    background-color: transparent;
+    border: solid 4px #002653;
+    border-radius: 15px;
+    width: 300px;
+    left: 80%;
+    top: 70px;
+    height: 30px;
+}
+
+#txtbusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 30px;
+    width: 280px;
+    color: #002653;
+}
+#imagemSemeador {
+    position: fixed;
+    float: left; 
+    left: 8%;
+    transform: translate(-50%, 0%);
+    height: 30px;
+    top: 40px; 
+}
+
+#nomeSemeador{
+    position: fixed;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #002653;
+    font-family: "ZabalDEMO-black";
+}
+
+#listItems ul{
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    left: 50%;
+    top: 130px;
+}
+
+#listItems ul li{
+    display: inline;
+}
+
+#listItems ul li a{
+    padding: 2px 30px; 
+    display: inline-block;
+    text-decoration: none; 
+    font-family: "ZabalDEMO-medium" ;
+    color: grey;
+    font-size: 20px;
+}
+
+#listItems ul li a:hover{
+    background-color:#ff5e0036;
+    color: #ff5c00;
+    border-bottom: 2px solid #ff5c00;
+}
+
+#primeira-parte{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    top: 300px;
+}
+
+#foto-natureza{
+    position: relative;
+    left: 80px;
+}
+#primeiro-h1{
+    position: relative;
+    left: 480px;
+    bottom: 320px;
+    font-size: 30px;
+    font-family: "ZabalDEMO-black";
+    color: #002653;
+
+}
+
+#primeiro-p{
+    position: relative;
+    left: 480px;
+    bottom: 300px;}
+
